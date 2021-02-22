@@ -42,4 +42,10 @@ public class MainController {
 		
 		return "test";
 	}
+	
+	@GetMapping("n")
+	public String n() {
+		
+		return "n";
+	}
 }
